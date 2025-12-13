@@ -1,0 +1,18 @@
+0,1,NET007.CNF,Combination8
+0,1,NET006.CNF,Combination7
+0,1,NET005.CNF,Combination6
+1,1,IFC005.CNF,SCE/Ethernet (Network Adaptor) 's setting(only dev use)
+0,1,NET004.CNF,Combination5
+1,1,IFC004.CNF,pppoe's setting(only dev use)
+0,1,NET003.CNF,Combination4
+2,1,DEV003.CNF,no-vendor/no-product(only dev use)
+1,1,IFC003.CNF,no-vendor/no-product's setting(only dev use)
+0,1,NET002.CNF,Combination3
+2,1,DEV002.CNF,SCE/Ethernet (Network Adaptor)
+1,1,IFC002.CNF,SCE/Ethernet (Network Adaptor) 's setting
+0,1,NET001.CNF,Combination2
+2,1,DEV001.CNF,SCE/Modem (Network Adaptor)
+1,1,IFC001.CNF,User ID's setting
+0,1,NET000.CNF,Combination1
+2,1,DEV000.CNF,Melco/LUA-TX
+1,1,IFC000.CNF,Melco/LUA-TX's setting

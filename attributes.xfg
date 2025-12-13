@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+
+<!--      all properties that are in the given class.
+	state - specifies that the entry is a lock/unlock/hidden entry.
+              valid default values are "locked", "unlocked" or "hidden" 
+			  where hidden implies locked
+	value - specifies the default value assigned to the entry - not
+              valid when used in conjunction with state
+
+	All entries default to the following values.
+		a value of 0 with a class of 0
+
+	Current Classes
+		0 = default - just a value.
+		1 = monster lock/unlock
+		2 = city lock/unlock
+		3 = atari powerups
+		4 = gallery item lock/unlock
+		5 = challenge lock/unlock
+		6 = Final Wars item lock/unlock
+		7 = monster packages
+		8 = city packages
+-->
+
+<table>
+	<!-- General Gameplay Attributes -->
+	<attr>PurchasePoints<value>0</value></attr>
+	<attr>ActionScore</attr>
+	<attr>ActionLevel</attr>
+	<attr>ActionModeFlags</attr>
+	<attr>ActionCompletes</attr>
+		
+	<!-- City Attribute List -->
+	<attr>CityPkg1<state>unlocked</state><class>8</class></attr>
+	<attr>CityPkg2<state>unlocked</state><class>8</class></attr>
+	<attr>CityPkg3<state>unlocked</state><class>8</class></attr>
+	<attr>MonsterIsland<state>unlocked</state><class>2</class></attr>
+	<attr>MonsterIsland0<state>unlocked</state><class>2</class></attr>
+	<attr>New_Tokyo_Main0<state>unlocked</state><class>2</class></attr>
+	<attr>New_Tokyo_Main<state>unlocked</state><class>2</class></attr>
+	<attr>New_LA_Main0<state>unlocked</state><class>2</class></attr>
+	<attr>New_LA_Main<state>unlocked</state><class>2</class></attr>
+	<attr>New_Seattle_Main0<state>unlocked</state><class>2</class></attr>
+	<attr>New_Seattle_Main<state>unlocked</state><class>2</class></attr>
+	<attr>New_Osaka_Main0<state>unlocked</state><class>2</class></attr>
+	<attr>New_Osaka_Main<state>unlocked</state><class>2</class></attr>
+	<attr>NewYork0<state>unlocked</state><class>2</class></attr>
+	<attr>NewYork<state>unlocked</state><class>2</class></attr>
+	<attr>New_London_Main0<state>unlocked</state><class>2</class></attr>
+	<attr>New_London_Main<state>unlocked</state><class>2</class></attr>
+	<attr>New_Boston_Main0<state>unlocked</state><class>2</class></attr>
+	<attr>New_Boston_Main<state>unlocked</state><class>2</class></attr>
+	<attr>New_Mothership<state>unlocked</state><class>2</class></attr>
+	<attr>Boxing_Ring_PS2<state>unlocked</state><class>2</class></attr>
+	<attr>New_SF_Main0<state>unlocked</state><class>2</class></attr>
+	<attr>New_SF_Main<state>unlocked</state><class>2</class></attr>
+		
+	<!-- Monster Attribute List -->
+	<attr>MonsterPkg1<state>unlocked</state><class>7</class></attr>
+	<attr>MonsterPkg2<state>unlocked</state><class>7</class></attr>
+	<attr>MonsterPkg3<state>unlocked</state><class>7</class></attr>
+	
+	<attr>anguirus<value>0</value></attr>
+	<attr>anguirusAMScore</attr>
+	<attr>anguirusFlags</attr>
+	<attr>anguirus00<value>1</value></attr>
+	<attr>anguirus01<value>1</value></attr>
+	<attr>anguirus02<value>1</value></attr>
+	<attr>anguirus10<value>1</value></attr>
+	<attr>anguirus11<value>1</value></attr>
+	<attr>anguirus12<value>1</value></attr>
+	<attr>anguirus20<value>1</value></attr>
+	<attr>anguirus21<value>1</value></attr>
+	<attr>anguirus22<value>1</value></attr>
+
+	<attr>baragon<value>0</value></attr>
+	<attr>baragonAMScore</attr>
+	<attr>baragonFlags</attr>
+	<attr>baragon00<value>1</value></attr>
+	<attr>baragon01<value>1</value></attr>
+	<attr>baragon02<value>1</value></attr>
+	<attr>baragon10<value>1</value></attr>
+	<attr>baragon11<value>1</value></attr>
+	<attr>baragon12<value>1</value></attr>
+	<attr>baragon20<value>1</value></attr>
+	<attr>baragon21<value>1</value></attr>
+	<attr>baragon22<value>1</value></attr>
+	
+	<attr>biollante<value>0</value></attr>
+	<attr>biollanteAMScore</attr>
+	<attr>biollanteFlags</attr>
+	<attr>biollante00<value>1</value></attr>
+	<attr>biollante01<value>1</value></attr>
+	<attr>biollante02<value>1</value></attr>
+	<attr>biollante10<value>1</value></attr>
+	<attr>biollante11<value>1</value></attr>
+	<attr>biollante12<value>1</value></attr>
+	<attr>biollante20<value>1</value></attr>
+	<attr>biollante21<value>1</value></attr>
+	<attr>biollante22<value>1</value></attr>
+
+	<attr>destoroyah<value>8</value></attr>
+	<attr>destoroyahAMScore</attr>
+	<attr>destoroyahFlags</attr>
+	<attr>destoroyah_2<value>1</value></attr>
+	<attr>destoroyah_3<value>1</value></attr>
+	<attr>destoroyah_4<value>1</value></attr>
+	<attr>destoroyah_5<value>1</value></attr>
+	<attr>destoroyah_6<value>1</value></attr>
+	<attr>destoroyah_7<value>1</value></attr>
+	<attr>destoroyah_8<value>1</value></attr>
+	<attr>destoroyah_9<value>1</value></attr>
+	<attr>destoroyah_10<value>1</value></attr>
+
+	<attr>ghidorah<value>0</value></attr>
+	<attr>ghidorahAMScore</attr>
+	<attr>ghidorahFlags</attr>
+	<attr>ghidorah00<value>1</value></attr>
+	<attr>ghidorah01<value>1</value></attr>
+	<attr>ghidorah02<value>1</value></attr>
+	<attr>ghidorah10<value>1</value></attr>
+	<attr>ghidorah11<value>1</value></attr>
+	<attr>ghidorah12<value>1</value></attr>
+	<attr>ghidorah20<value>1</value></attr>
+	<attr>ghidorah21<value>1</value></attr>
+	<attr>ghidorah22<value>1</value></attr>
+
+	<attr>gigan<value>12</value></attr>
+	<attr>giganAMScore</attr>
+	<attr>giganFlags</attr>
+	<attr>gigan_1<value>1</value></attr>
+	<attr>gigan_2<value>1</value></attr>
+	<attr>gigan_4<value>1</value></attr>
+	<attr>gigan_6<value>1</value></attr>
+	<attr>gigan_7<value>1</value></attr>
+	<attr>gigan_8<value>1</value></attr>
+	<attr>gigan_9<value>1</value></attr>
+	<attr>gigan_10<value>1</value></attr>
+	<attr>gigan_11<value>1</value></attr>
+
+	<!-- Skins 11 and 12 are placeholders -->
+	<attr>godzilla2k<value>10</value></attr>
+	<attr>godzilla2kAMScore</attr>
+	<attr>godzilla2kFlags</attr>
+    	<attr>godzilla2k_3<value>1</value></attr>
+    	<attr>godzilla2k_5<value>1</value></attr>
+    	<attr>godzilla2k_6<value>1</value></attr>
+    	<attr>godzilla2k_7<value>1</value></attr>
+   	<attr>godzilla2k_8<value>1</value></attr>
+    	<attr>godzilla2k_9<value>1</value></attr>
+    	<attr>godzilla2k_10<value>1</value></attr>
+    	<attr>godzilla2k_11<value>1</value></attr>
+    	<attr>godzilla2k_12<value>1</value></attr>
+
+	<attr>godzilla90s<value>0</value></attr>
+	<attr>godzilla90sAMScore</attr>
+	<attr>godzilla90sFlags</attr>
+	<attr>godzilla90s00<value>1</value></attr>
+	<attr>godzilla90s01<value>1</value></attr>
+	<attr>godzilla90s02<value>1</value></attr>
+	<attr>godzilla90s10<value>1</value></attr>
+	<attr>godzilla90s11<value>1</value></attr>
+	<attr>godzilla90s12<value>1</value></attr>
+	<attr>godzilla90s20<value>1</value></attr>
+	<attr>godzilla90s21<value>1</value></attr>
+	<attr>godzilla90s22<value>1</value></attr>
+
+	<attr>jetjaguar<value>7</value></attr>
+	<attr>jetjaguarAMScore</attr>
+	<attr>jetjaguarFlags</attr>
+	<attr>jetjaguar_1<value>1</value></attr>
+	<attr>jetjaguar_3<value>1</value></attr>
+	<attr>jetjaguar_4<value>1</value></attr>
+	<attr>jetjaguar_5<value>1</value></attr>
+	<attr>jetjaguar_6<value>1</value></attr>
+	<attr>jetjaguar_7<value>1</value></attr>
+	<attr>jetjaguar_8<value>1</value></attr>
+	<attr>jetjaguar_9<value>1</value></attr>
+	<attr>jetjaguar_10<value>1</value></attr>
+
+	<attr>mechagodzilla2<value>10</value></attr>
+	<attr>mechagodzilla2AMScore</attr>
+	<attr>mechagodzilla2Flags</attr>
+	<attr>mechagodzilla2_2<value>1</value></attr>
+	<attr>mechagodzilla2_4<value>1</value></attr>
+	<attr>mechagodzilla2_5<value>1</value></attr>
+	<attr>mechagodzilla2_6<value>1</value></attr>
+	<attr>mechagodzilla2_7<value>1</value></attr>
+	<attr>mechagodzilla2_8<value>1</value></attr>
+	<attr>mechagodzilla2_9<value>1</value></attr>
+	<attr>mechagodzilla2_10<value>1</value></attr>
+	<attr>mechagodzilla2_11<value>1</value></attr>
+
+	<attr>mechagodzilla3<value>13</value></attr>
+	<attr>mechagodzilla3AMScore</attr>
+	<attr>mechagodzilla3Flags</attr>
+	<attr>mechagodzilla3_2<value>1</value></attr>
+	<attr>mechagodzilla3_3<value>1</value></attr>
+	<attr>mechagodzilla3_4<value>1</value></attr>
+	<attr>mechagodzilla3_5<value>1</value></attr>
+	<attr>mechagodzilla3_6<value>1</value></attr>
+	<attr>mechagodzilla3_7<value>1</value></attr>
+	<attr>mechagodzilla3_8<value>1</value></attr>
+	<attr>mechagodzilla3_9<value>1</value></attr>
+	<attr>mechagodzilla3_10<value>1</value></attr>
+
+	<attr>megaguirus<value>6</value></attr>
+	<attr>megaguirusAMScore</attr>
+	<attr>megaguirusFlags</attr>
+	<attr>megaguirus_1<value>1</value></attr>
+	<attr>megaguirus_2<value>1</value></attr>
+	<attr>megaguirus_3<value>1</value></attr>
+	<attr>megaguirus_4<value>1</value></attr>
+	<attr>megaguirus_5<value>1</value></attr>
+	<attr>megaguirus_6<value>1</value></attr>
+	<attr>megaguirus_7<value>1</value></attr>
+	<attr>megaguirus_8<value>1</value></attr>
+	<attr>megaguirus_9<value>1</value></attr>
+
+	<attr>megalon<value>6</value></attr>
+	<attr>megalonAMScore</attr>
+	<attr>megalonFlags</attr>
+	<attr>megalon_2<value>1</value></attr>
+	<attr>megalon_3<value>1</value></attr>
+	<attr>megalon_4<value>1</value></attr>
+	<attr>megalon_5<value>1</value></attr>
+	<attr>megalon_6<value>1</value></attr>
+	<attr>megalon_7<value>1</value></attr>
+	<attr>megalon_8<value>1</value></attr>
+	<attr>megalon_9<value>1</value></attr>
+	<attr>megalon_10<value>1</value></attr>
+
+	<attr>mghidorah<value>0</value></attr>
+	<attr>mghidorahAMScore</attr>
+	<attr>mghidorahFlags</attr>
+	<attr>mghidorah00<value>1</value></attr>
+	<attr>mghidorah01<value>1</value></attr>
+	<attr>mghidorah02<value>1</value></attr>
+	<attr>mghidorah10<value>1</value></attr>
+	<attr>mghidorah11<value>1</value></attr>
+	<attr>mghidorah12<value>1</value></attr>
+	<attr>mghidorah20<value>1</value></attr>
+	<attr>mghidorah21<value>1</value></attr>
+	<attr>mghidorah22<value>1</value></attr>
+
+	<attr>moguera2<value>0</value></attr>
+	<attr>moguera2AMScore</attr>
+	<attr>moguera2Flags</attr>
+	<attr>moguera200<value>1</value></attr>
+	<attr>moguera201<value>1</value></attr>
+	<attr>moguera202<value>1</value></attr>
+	<attr>moguera210<value>1</value></attr>
+	<attr>moguera211<value>1</value></attr>
+	<attr>moguera212<value>1</value></attr>
+	<attr>moguera220<value>1</value></attr>
+	<attr>moguera221<value>1</value></attr>
+	<attr>moguera222<value>1</value></attr>
+
+	<attr>mothra_larvae<value>0</value></attr>
+	<attr>mothra_larvaeAMScore</attr>
+	<attr>mothra_larvaeFlags</attr>
+	<attr>mothra_larvae00<value>1</value></attr>
+	<attr>mothra_larvae01<value>1</value></attr>
+	<attr>mothra_larvae02<value>1</value></attr>
+	<attr>mothra_larvae10<value>1</value></attr>
+	<attr>mothra_larvae11<value>1</value></attr>
+	<attr>mothra_larvae12<value>1</value></attr>
+	<attr>mothra_larvae20<value>1</value></attr>
+	<attr>mothra_larvae21<value>1</value></attr>
+	<attr>mothra_larvae22<value>1</value></attr>
+
+	<attr>orga<value>3</value></attr>
+	<attr>orgaAMScore</attr>
+	<attr>orgaFlags</attr>
+	<attr>orga_1<value>1</value></attr>
+	<attr>orga_2<value>1</value></attr>
+	<attr>orga_3<value>1</value></attr>
+	<attr>orga_4<value>1</value></attr>
+	<attr>orga_5<value>1</value></attr>
+	<attr>orga_6<value>1</value></attr>
+	<attr>orga_7<value>1</value></attr>
+	<attr>orga_8<value>1</value></attr>
+	<attr>orga_9<value>1</value></attr>
+
+	<attr>rodan<value>6</value></attr>
+	<attr>rodanAMScore</attr>
+	<attr>rodanFlags</attr>
+	<attr>rodan_1<value>1</value></attr>
+	<attr>rodan_2<value>1</value></attr>
+	<attr>rodan_3<value>1</value></attr>
+	<attr>rodan_5<value>1</value></attr>
+	<attr>rodan_6<value>1</value></attr>
+	<attr>rodan_7<value>1</value></attr>
+	<attr>rodan_8<value>1</value></attr>
+	<attr>rodan_9<value>1</value></attr>
+	<attr>rodan_10<value>1</value></attr>
+
+	<attr>spacegodzilla<value>5</value></attr>
+	<attr>spacegodzillaAMScore</attr>
+	<attr>spacegodzillaFlags</attr>
+	<attr>spacegodzilla_1<value>1</value></attr>
+	<attr>spacegodzilla_2<value>1</value></attr>
+	<attr>spacegodzilla_3<value>1</value></attr>
+	<attr>spacegodzilla_4<value>1</value></attr>
+	<attr>spacegodzilla_5<value>1</value></attr>
+	<attr>spacegodzilla_6<value>1</value></attr>
+	<attr>spacegodzilla_7<value>1</value></attr>
+	<attr>spacegodzilla_8<value>1</value></attr>
+	<attr>spacegodzilla_9<value>1</value></attr>
+
+	<!-- Gallery -->
+	<attr>gallery01<state>unlocked</state><class>4</class></attr>
+	<attr>gallery02<state>unlocked</state><class>4</class></attr>
+	<attr>gallery03<state>unlocked</state><class>4</class></attr>
+	<attr>gallery04<state>unlocked</state><class>4</class></attr>
+	<attr>gallery05<state>unlocked</state><class>4</class></attr>
+	<attr>gallery06<state>unlocked</state><class>4</class></attr>
+	<attr>gallery07<state>unlocked</state><class>4</class></attr>
+	<attr>gallery08<state>unlocked</state><class>4</class></attr>
+	<attr>gallery09<state>unlocked</state><class>4</class></attr>
+	<attr>gallery10<state>unlocked</state><class>4</class></attr>
+	<attr>gallery11<state>unlocked</state><class>4</class></attr>
+	<attr>gallery12<state>unlocked</state><class>4</class></attr>
+	<attr>gallery13<state>unlocked</state><class>4</class></attr>
+	<attr>gallery14<state>unlocked</state><class>4</class></attr>
+	<attr>gallery15<state>unlocked</state><class>4</class></attr>
+	<attr>gallery16<state>unlocked</state><class>4</class></attr>
+	<attr>gallery17<state>unlocked</state><class>4</class></attr>
+	<attr>gallery18<state>unlocked</state><class>4</class></attr>
+	<attr>gallery19<state>unlocked</state><class>4</class></attr>
+	<attr>gallery20<state>unlocked</state><class>4</class></attr>
+	<attr>gallery21<state>unlocked</state><class>4</class></attr>
+	<attr>gallery22<state>unlocked</state><class>4</class></attr>
+	<attr>gallery23<state>unlocked</state><class>4</class></attr>
+	<attr>gallery24<state>unlocked</state><class>4</class></attr>
+	<attr>gallery25<state>unlocked</state><class>4</class></attr>
+	<attr>gallery26<state>unlocked</state><class>4</class></attr>
+	<attr>gallery27<state>unlocked</state><class>4</class></attr>
+		
+	<!-- Final Wars gallery items -->
+	<attr>FinalWars01<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars02<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars03<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars04<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars05<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars06<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars07<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars08<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars09<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars10<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars11<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars12<state>unlocked</state><class>6</class></attr>
+	<attr>FinalWars13<state>unlocked</state><class>6</class></attr>
+		
+		
+	<!-- Rules / Options Attributes 
+	     * rounds: Versus = 0,1,2=>1,3,5 rounds; non-Versus = first to 0-2=>1-3 wins
+	     * AI difficulty: 0=Easy, 1=Med, 2=Hard 
+	     * round length: value => value+1 minutes
+	     * reset arenas: 0=no, 1=yes
+	-->
+	<attr>rule_vs_rounds<value>1</value></attr>       
+	<attr>rule_vs_difficulty</attr>   
+	<attr>rule_vs_round_length<value>4</value></attr>
+	<attr>rule_vs_reset_arenas<value>1</value></attr> 
+		
+	<attr>rule_melee_rounds</attr>       
+	<attr>rule_melee_difficulty</attr>   
+	<attr>rule_melee_round_length<value>4</value></attr>
+	<attr>rule_melee_reset_arenas<value>1</value></attr> 
+	
+	<attr>rule_team_rounds</attr>       
+	<attr>rule_team_difficulty</attr>   
+	<attr>rule_team_round_length<value>4</value></attr>
+	<attr>rule_team_reset_arenas<value>1</value></attr> 
+
+	<attr>rule_dest_rounds</attr>       
+	<attr>rule_dest_difficulty</attr>   
+	<attr>rule_dest_round_length<value>1</value></attr>
+	<attr>rule_dest_reset_arenas<value>1</value></attr>
+
+	<attr>rule_tmdest_rounds</attr>       
+	<attr>rule_tmdest_difficulty</attr>   
+	<attr>rule_tmdest_round_length<value>1</value></attr>
+	<attr>rule_tmdest_reset_arenas<value>1</value></attr>
+
+	<attr>rule_survival_rounds</attr>       
+	<attr>rule_survival_difficulty</attr>   
+	<attr>rule_survival_round_length<value>4</value></attr>
+	<attr>rule_survival_reset_arenas</attr>
+
+	<attr>rule_adventure_rounds</attr>       
+	<attr>rule_adventure_difficulty</attr>   
+	<attr>rule_adventure_round_length<value>4</value></attr>
+	<attr>rule_adventure_reset_arenas</attr>
+	
+	<!-- Action Mode Saved State (used to play from last completed game when a crash occures -->
+	<attr>ActionLastLevel</attr>
+	<attr>ActionLastMonster</attr>
+	<attr>ActionLastScore</attr>
+	
+	<!-- Challenges -->
+	<attr>ChallengeBattleships<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeBasketball<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeOsakaCrunch<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeBowling<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeDemolition<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeAsteroids<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeUFOAttack<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeJagClone<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengePenupSF<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeSeaBattle<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeReplicator<state>unlocked</state><class>5</class></attr>
+	<attr>ChallengeMothership<state>unlocked</state><class>5</class></attr>
+
+	<attr>give100000</attr>
+	<attr>give150000</attr>
+	<attr>give200000</attr>
+
+	<!-- New G:STEM save values -->
+	<attr>rule_vs_music<value>0</value></attr>
+	<attr>rule_melee_music<value>0</value></attr>
+	<attr>rule_team_music<value>0</value></attr>
+	<attr>rule_dest_music<value>0</value></attr>
+	<attr>rule_tmdest_music<value>0</value></attr>
+	<attr>rule_survival_music<value>0</value></attr>
+	<attr>rule_adventure_music<value>0</value></attr>
+
+	<attr>rule_vs_tether<value>1</value></attr>
+	<attr>rule_melee_tether<value>1</value></attr>
+	<attr>rule_team_tether<value>1</value></attr>
+	<attr>rule_dest_tether<value>1</value></attr>
+	<attr>rule_tmdest_tether<value>1</value></attr>
+	<attr>rule_survival_tether<value>1</value></attr>
+	<attr>rule_adventure_tether<value>1</value></attr>
+
+	<attr>rule_vs_powerups<value>0</value></attr>
+	<attr>rule_melee_powerups<value>1</value></attr>
+	<attr>rule_team_powerups<value>1</value></attr>
+	<attr>rule_dest_powerups<value>1</value></attr>
+	<attr>rule_tmdest_powerups<value>1</value></attr>
+	<attr>rule_survival_powerups<value>1</value></attr>
+	<attr>rule_adventure_powerups<value>1</value></attr>
+
+	<attr>rule_vs_barriers<value>1</value></attr>
+	<attr>rule_melee_barriers<value>1</value></attr>
+	<attr>rule_team_barriers<value>1</value></attr>
+	<attr>rule_dest_barriers<value>1</value></attr>
+	<attr>rule_tmdest_barriers<value>1</value></attr>
+	<attr>rule_survival_barriers<value>1</value></attr>
+	<attr>rule_adventure_barriers<value>1</value></attr>
+
+	<attr>rule_vs_empty<value>0</value></attr>
+	<attr>rule_melee_empty<value>0</value></attr>
+	<attr>rule_team_empty<value>0</value></attr>
+	<attr>rule_dest_empty<value>0</value></attr>
+	<attr>rule_tmdest_empty<value>0</value></attr>
+	<attr>rule_survival_empty<value>0</value></attr>
+	<attr>rule_adventure_empty<value>0</value></attr>
+
+	<attr>rule_vs_mildmg<value>0</value></attr>
+	<attr>rule_melee_mildmg<value>0</value></attr>
+	<attr>rule_team_mildmg<value>0</value></attr>
+	<attr>rule_dest_mildmg<value>0</value></attr>
+	<attr>rule_tmdest_mildmg<value>0</value></attr>
+	<attr>rule_survival_mildmg<value>0</value></attr>
+	<attr>rule_adventure_mildmg<value>0</value></attr>
+
+	<attr>rule_vs_military<value>0</value></attr>
+	<attr>rule_melee_military<value>0</value></attr>
+	<attr>rule_team_military<value>0</value></attr>
+	<attr>rule_dest_military<value>0</value></attr>
+	<attr>rule_tmdest_military<value>0</value></attr>
+	<attr>rule_survival_military<value>0</value></attr>
+	<attr>rule_adventure_military<value>0</value></attr>
+
+	<attr>rule_vs_rage<value>0</value></attr>
+	<attr>rule_melee_rage<value>0</value></attr>
+	<attr>rule_team_rage<value>0</value></attr>
+	<attr>rule_dest_rage<value>0</value></attr>
+	<attr>rule_tmdest_rage<value>0</value></attr>
+	<attr>rule_survival_rage<value>0</value></attr>
+	<attr>rule_adventure_rage<value>0</value></attr>
+
+	<attr>rule_vs_watch<value>0</value></attr>
+	<attr>rule_melee_watch<value>0</value></attr>
+	<attr>rule_team_watch<value>0</value></attr>
+	<attr>rule_dest_watch<value>0</value></attr>
+	<attr>rule_tmdest_watch<value>0</value></attr>
+	<attr>rule_survival_watch<value>0</value></attr>
+	<attr>rule_adventure_watch<value>0</value></attr>
+
+	<attr>rule_vs_random<value>0</value></attr>
+	<attr>rule_melee_random<value>0</value></attr>
+	<attr>rule_team_random<value>0</value></attr>
+	<attr>rule_dest_random<value>0</value></attr>
+	<attr>rule_tmdest_random<value>0</value></attr>
+	<attr>rule_survival_random<value>0</value></attr>
+	<attr>rule_adventure_random<value>0</value></attr>
+
+	<attr>rule_vs_hud<value>1</value></attr>
+	<attr>rule_melee_hud<value>1</value></attr>
+	<attr>rule_team_hud<value>1</value></attr>
+	<attr>rule_dest_hud<value>1</value></attr>
+	<attr>rule_tmdest_hud<value>1</value></attr>
+	<attr>rule_survival_hud<value>1</value></attr>
+	<attr>rule_adventure_hud<value>1</value></attr>
+
+	<attr>rule_vs_colors<value>0</value></attr>
+	<attr>rule_melee_colors<value>0</value></attr>
+	<attr>rule_team_colors<value>0</value></attr>
+	<attr>rule_dest_colors<value>0</value></attr>
+	<attr>rule_tmdest_colors<value>0</value></attr>
+	<attr>rule_survival_colors<value>0</value></attr>
+	<attr>rule_adventure_colors<value>0</value></attr>
+
+	<attr>rule_vs_training<value>0</value></attr>
+	<attr>rule_melee_training<value>0</value></attr>
+	<attr>rule_team_training<value>0</value></attr>
+	<attr>rule_dest_training<value>0</value></attr>
+	<attr>rule_tmdest_training<value>0</value></attr>
+	<attr>rule_survival_training<value>0</value></attr>
+	<attr>rule_adventure_training<value>0</value></attr>
+
+	<attr>rule_vs_points<value>0</value></attr>
+	<attr>rule_melee_points<value>2</value></attr>
+	<attr>rule_team_points<value>2</value></attr>
+	<attr>rule_dest_points<value>1</value></attr>
+	<attr>rule_tmdest_points<value>1</value></attr>
+	<attr>rule_survival_points<value>0</value></attr>
+	<attr>rule_adventure_points<value>0</value></attr>
+
+	<attr>rule_vs_ammo<value>0</value></attr>
+	<attr>rule_melee_ammo<value>0</value></attr>
+	<attr>rule_team_ammo<value>0</value></attr>
+	<attr>rule_dest_ammo<value>0</value></attr>
+	<attr>rule_tmdest_ammo<value>0</value></attr>
+	<attr>rule_survival_ammo<value>0</value></attr>
+	<attr>rule_adventure_ammo<value>0</value></attr>
+
+	<attr>rule_vs_camera<value>0</value></attr>
+	<attr>rule_melee_camera<value>0</value></attr>
+	<attr>rule_team_camera<value>0</value></attr>
+	<attr>rule_dest_camera<value>0</value></attr>
+	<attr>rule_tmdest_camera<value>0</value></attr>
+	<attr>rule_survival_camera<value>0</value></attr>
+	<attr>rule_adventure_camera<value>0</value></attr>
+
+	<attr>rule_vs_health<value>5</value></attr>
+	<attr>rule_melee_health<value>5</value></attr>
+	<attr>rule_team_health<value>5</value></attr>
+	<attr>rule_dest_health<value>5</value></attr>
+	<attr>rule_tmdest_health<value>5</value></attr>
+	<attr>rule_survival_health<value>5</value></attr>
+	<attr>rule_adventure_health<value>5</value></attr>
+
+	<attr>rule_vs_size<value>6</value></attr>
+	<attr>rule_melee_size<value>6</value></attr>
+	<attr>rule_team_size<value>6</value></attr>
+	<attr>rule_dest_size<value>6</value></attr>
+	<attr>rule_tmdest_size<value>6</value></attr>
+	<attr>rule_survival_size<value>6</value></attr>
+	<attr>rule_adventure_size<value>6</value></attr>
+
+	<attr>rule_vs_speed<value>5</value></attr>
+	<attr>rule_melee_speed<value>5</value></attr>
+	<attr>rule_team_speed<value>5</value></attr>
+	<attr>rule_dest_speed<value>5</value></attr>
+	<attr>rule_tmdest_speed<value>5</value></attr>
+	<attr>rule_survival_speed<value>5</value></attr>
+	<attr>rule_adventure_speed<value>5</value></attr>
+
+	<!-- These values are used to communicate with the pnach file -->
+	<attr>scale_camera<value>0</value></attr>
+	<attr>current_rage_setting<value>76</value></attr>
+	<attr>military_ai_group1<value>0</value></attr>
+	<attr>military_ai_group2<value>0</value></attr>
+	<attr>military_ai_group3<value>0</value></attr>
+	<attr>military_ai_group4<value>0</value></attr>
+	<attr>military_ai_group5<value>0</value></attr>
+	<attr>military_ai_count<value>0</value></attr>
+	<attr>military_tank_groups<value>0</value></attr>
+
+	<!-- More settings -->
+	<attr>rule_vs_npcs<value>0</value></attr>
+	<attr>rule_melee_npcs<value>1</value></attr>
+	<attr>rule_team_npcs<value>1</value></attr>
+	<attr>rule_dest_npcs<value>1</value></attr>
+	<attr>rule_tmdest_npcs<value>1</value></attr>
+	<attr>rule_survival_npcs<value>0</value></attr>
+	<attr>rule_adventure_npcs<value>0</value></attr>
+
+	<!-- Version number -->
+	<!-- Example: 150 = 1.5.0 -->
+	<attr>version<value>160</value></attr>
+
+	<!-- STEM Cheats -->
+	<attr>stem_cheat_bits<value>0</value></attr>
+
+	<!-- STEM Unlocks 1 -->	
+	<attr>gigan_12<value>1</value></attr>
+	<attr>mechagodzilla3_11<value>1</value></attr>
+	<attr>mechagodzilla3_12<value>1</value></attr>
+	<attr>mechagodzilla3_13<value>1</value></attr>
+	<attr>gigan4<value>11</value></attr>
+	<attr>gigan4AMScore</attr>
+	<attr>gigan4Flags</attr>
+    	<attr>gigan4_1<value>1</value></attr>
+    	<attr>gigan4_4<value>1</value></attr>
+    	<attr>gigan4_5<value>1</value></attr>
+    	<attr>gigan4_6<value>1</value></attr>
+    	<attr>gigan4_7<value>1</value></attr>
+   	<attr>gigan4_8<value>1</value></attr>
+    	<attr>gigan4_9<value>1</value></attr>
+    	<attr>gigan4_10<value>1</value></attr>
+    	<attr>gigan4_11<value>1</value></attr>
+	<attr>zilla<value>14</value></attr>
+	<attr>zillaAMScore</attr>
+	<attr>zillaFlags</attr>
+    	<attr>zilla_3<value>1</value></attr>
+    	<attr>zilla_4<value>1</value></attr>
+    	<attr>zilla_5<value>1</value></attr>
+    	<attr>zilla_6<value>1</value></attr>
+    	<attr>zilla_7<value>1</value></attr>
+   	<attr>zilla_8<value>1</value></attr>
+    	<attr>zilla_9<value>1</value></attr>
+    	<attr>zilla_10<value>1</value></attr>
+    	<attr>zilla_11<value>1</value></attr>
+    	<attr>zilla_13<value>1</value></attr>
+    	<attr>zilla_14<value>1</value></attr>
+
+</table>

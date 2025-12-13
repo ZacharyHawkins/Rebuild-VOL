@@ -1,0 +1,9 @@
+<table>
+	<attr>Rumble<value>0xFF</value></attr>
+	<attr>InvertJoystick<value>0x00</value></attr>
+	<attr>SoundFxVolume</attr>
+	<attr>VoiceOverVolume</attr>
+	<attr>MusicVolume</attr>
+	<attr>UsePlatformLanguage</attr>
+	<attr>CheatBits</attr>
+</table>
